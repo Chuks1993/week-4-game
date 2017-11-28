@@ -11,17 +11,64 @@ body {
 	display: block;
 }
 
-div.col-md-12 {
-	padding-top: 50px;
-	padding-left: 180px;
-	padding-right: 150px
+.col-md-12 {
+	text-align: center;
+	
 }
 
-.character {
-	width: 450px;
+.col-md-12 h1 {
+	font-size: 50px;
+	color: white;
+	font-family: 'Spectral SC', serif;
+}
+
+
+
+.col-md-4 img {
+	padding: 40px;
+	width: 400px;
 	height: 300px;
-	margin-left: 30px;
-	margin-right: 30px;
-	left: 500px;
+	-webkit-filter: grayscale(100%);
+	-webkit-transition: .5s ease-in-out;
+	-moz-filter: grayscale(100%); 
+	-moz-transition: .5s ease-in-out;
+	-o-filter: grayscale(100%); 
+	-o-transition: .5s ease-in-out;	
 }
 
+.col-md-4 img:hover {
+	border: 5px solid white;
+	-webkit-filter: grayscale(0%);
+	-webkit-transition: .5s ease-in-out;
+	-moz-filter: grayscale(0%);
+	-moz-transition: .5s ease-in-out;
+	-o-filter: grayscale(0%);
+	-o-transition: .5s ease-in-out;	
+}
+
+#jon, #dany, #cersei {
+	text-align: center;
+	color: white;
+	font-family: 'Spectral SC', serif;
+	font-size: 30px;
+}
+
+#you {
+	padding-top: 170px;
+}
+
+#attack {
+	text-align: center;
+	padding-top: 300px;
+	font-size: 50px;
+	color: white;
+	font-family: 'Spectral SC', serif;
+}
+
+#select {
+	text-align: center;
+
+	font-size: 50px;
+	color: white;
+	font-family: 'Spectral SC', serif;
+}
