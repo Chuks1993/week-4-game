@@ -29,31 +29,31 @@ body {
 	width: 400px;
 	height: 300px;
 	-webkit-filter: grayscale(100%);
-	-webkit-transition: .5s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
 	-moz-filter: grayscale(100%); 
-	-moz-transition: .5s ease-in-out;
+	-moz-transition: .3s ease-in-out;
 	-o-filter: grayscale(100%); 
-	-o-transition: .5s ease-in-out;	
+	-o-transition: .3s ease-in-out;	
 }
 
 .col-md-4 img:hover {
 	border: 5px solid white;
 	-webkit-filter: grayscale(0%);
-	-webkit-transition: .5s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
 	-moz-filter: grayscale(0%);
-	-moz-transition: .5s ease-in-out;
+	-moz-transition: .3s ease-in-out;
 	-o-filter: grayscale(0%);
-	-o-transition: .5s ease-in-out;	
+	-o-transition: .3s ease-in-out;	
 }
 
-#jon, #dany, #cersei {
+#jonAttr, #danyAttr, #cerseiAttr {
 	text-align: center;
 	color: white;
 	font-family: 'Spectral SC', serif;
-	font-size: 30px;
+	font-size: 15px;
 }
 
-#you {
+#user {
 	padding-top: 170px;
 }
 
@@ -65,10 +65,17 @@ body {
 	font-family: 'Spectral SC', serif;
 }
 
+.btn.btn-danger {
+	font-size: 30px;
+	color: white;
+	font-family: 'Spectral SC', serif;
+}
+
 #select {
 	text-align: center;
-
 	font-size: 50px;
 	color: white;
 	font-family: 'Spectral SC', serif;
 }
+
+
